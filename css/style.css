@@ -1,0 +1,69 @@
+body{
+    background-image: url(../img/Neon.jpg);
+    background-size: 40%;
+    box-sizing: border-box;
+    width: 100%;
+    overflow:hidden;
+} 
+.b{
+    background-color: floralwhite;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    padding:50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.btn{
+    width: 70px;
+    height: 70px;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(251, 217, 217);
+    text-shadow: 1px 1px 5px 5px rgb(255, 0, 0);
+    border-radius: 50%;
+    box-shadow: 2px 2px 12px 12px white;
+}
+.cat__fall{
+    background-color: rgba(240, 248, 255, 0.599);
+    border: none;
+    width: 80px;
+    height: 50px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-left: 60px;
+}
+.cat__fall:hover {
+    background-color: red;
+}
+.overlay{
+    width: 80px;
+    border: 6px solid red;
+}
+.pum{
+    margin: 50px;
+    background-color: transparent;
+    width: 90px;
+    height: 70px;
+    border-radius: 50%;
+    border: dashed 3px blue;
+}
+.pum:hover{
+    background-color: blue;
+    
+}
+.puma{
+    color: blue;
+    
+}
+.pum:hover .puma{
+    color:aqua;
+   
+} 
